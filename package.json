@@ -1,0 +1,26 @@
+{
+  "name": "web-faqiih",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-dev": "tailwindcss -i src/styles.css -o dist/tailwind.css",
+    "css-prod": "NODE_ENV=production tailwindcss -i src/styles.css dist/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naufal-fa/web-faqiih.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naufal-fa/web-faqiih/issues"
+  },
+  "homepage": "https://github.com/naufal-fa/web-faqiih#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.3",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9"
+  }
+}
